@@ -1,0 +1,131 @@
+* {
+	margin: 0;
+	text-decoration: none;
+}
+
+body {
+	background-image: url("../img/background4.jpg");
+	background-attachment: fixed;
+	animation: city 30s linear infinite;
+	font-family: url("img/geosanslight-webfont.woff") format('woff');
+	-moz-background-size: 110%; /* Firefox 3.6+ */
+	-webkit-background-size: 110%; /* Safari 3.1+ и Chrome 4.0+ */
+	-o-background-size: 110%; /* Opera 9.6+ */
+	background-size: 110%; /* Современные браузеры */
+	
+}
+
+@keyframes city {
+	from { background-position: 120% 0%, 0 0;}
+	to { background-position: 0 0%, 0 0; }
+}
+
+#menu {
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+
+	font-family: url("geosanslight-webfont.woff") format('woff');
+	font-size: 24px;
+	font-style: normal;
+	font-variant: small-caps;
+	font-weight: 400;
+	line-height: 82.8px;
+}
+
+#menu a {
+	padding: 5px;
+	display: block;
+	color: #eaf2f2;
+	font-size: 3em;
+
+}
+
+#menu a:hover {
+	background-color: black;
+	opacity: 0.7;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+	transition: all, 1s ;
+	-ms-transition: all,1s ease;
+	-o-transition: all,1s ease;
+	-moz-transition: all,1s ease;
+	-webkit-transition: all,1s ease;
+}
+
+.push { 
+	cursor: pointer;
+}
+
+.img {
+	 cursor: crosshair; 
+}
+
+/* log_in */
+
+#thewindow {
+	float: left;
+	padding: 10px;
+	margin-left: 10%;
+	margin-top: 2%;
+	position:relative;
+	width:15%;
+	height: 330px;
+	overflow:hidden; 
+	color: white;
+}
+
+#thetext {
+	position:absolute;
+	width:170px;
+	left:5px;
+	top:100px;
+}
+
+#form {
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	top: 27%;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 60.8px;
+}
+
+#try_form {
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	top: 20%;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 60.8px;
+}
+.choise {
+	font-weight: 600;
+}
+#img {
+	width: 50%;
+	
+}
+#hello {
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	top: 40%;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-size: 100px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 60.8px;
+}
+#again {
+	font-weight: 100;
+}
